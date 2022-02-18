@@ -224,6 +224,7 @@
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -370,6 +371,26 @@
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'a5854f6e481bf9e3b739',
+      clientSecret: '6eb59576146ccdfb8e87c61be958e2a4c458d967',
+      repo        : 'theHexPanda.github.io',
+      owner       : 'theHexPanda',
+      admin       : ['theHexPanda'],
+      id          : 'f6c95eb4574cef9806e8e014a1dfe30d',
+        language: 'en',
+      distractionFreeMode: false
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
