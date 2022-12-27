@@ -191,10 +191,21 @@
 <div class="comments">
     <h3 class="title is-4">Comments</h3>
     
-<div class="notification is-danger">
-	You forgot to set the <code>owner</code>, <code>repo</code>, <code>client_id</code>, or <code>client_secret</code> for Gitment.
-	Please set it in <code>_config.yml</code>.
-</div>
+<div id="comment-container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+	var gitment = new Gitment({
+		id: '2022/10/10/hello-world/',
+		owner: '123',
+		repo: '123',
+		oauth: {
+			client_id: '123',
+			client_secret: '123',
+		},
+	})
+	gitment.render('comment-container')
+</script>
 
 </div>
 
