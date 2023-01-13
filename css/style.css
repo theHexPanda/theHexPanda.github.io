@@ -1282,6 +1282,8 @@ img {
   z-index: 0;
   height: 90vh;
   overflow: hidden;
+  background-size: cover;
+  -webkit-background-size: cover;
 }
 .video-media video,
 .video-media img {
