@@ -1292,7 +1292,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
-  min-height: 50%;
+  min-height: 75%;
 }
 .video-overlay {
   position: absolute;
