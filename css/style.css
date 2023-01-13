@@ -483,3 +483,24 @@ figure.highlight {
 .ins-section .ins-search-item:hover .ins-search-preview,
 .ins-section .ins-search-item.active .ins-search-preview {
   color: #fff; }
+
+.mermaid {
+  background: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center; }
+  .mermaid .label {
+    font-weight: normal;
+    font-size: .88rem; }
+  .mermaid .edgePath .path {
+    stroke: #02d7f2 !important; }
+  .mermaid .arrowheadPath {
+    fill: white !important; }
+  .mermaid .edgeLabel {
+    background-color: #0d1117 !important;
+    color: white !important; }
+  .mermaid .edgeLabel rect {
+    opacity: 0.5;
+    background-color: transparent !important;
+    fill: transparent !important; }
