@@ -104,7 +104,7 @@ J---I(测试完毕)</pre>
        checkout main
        commit
        commit</pre>
-<p> 思维导图</p>
+<p> 思维导图 format</p>
 <pre class="mermaid">mindmap
   root((mindmap))
     Origins
