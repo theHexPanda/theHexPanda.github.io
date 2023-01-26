@@ -8,7 +8,19 @@
     A-->B;
     A-->C;
     B-->D;
-    C-->D;</pre>
+    C-->D;
+    
+gantt
+    title 甘特图
+    dateFormat  YYYY-MM-DD
+
+    section 部分1
+    1个任务           :a1, 2014-01-01, 30d
+    其他任务          :after a1  , 20d
+
+    section 其他部分
+    第2个任务      :2014-01-12  , 12d
+    其他任务      : 24d</pre>
 ]]></content>
   </entry>
   <entry>
