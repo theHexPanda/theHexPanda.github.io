@@ -95,9 +95,8 @@ Class08 <--> C2: Cool label</pre>
        checkout main
        commit
        commit</pre>
-<p> 思维导图mindmap</p>
-<pre class="mermaid"> 
- mindmap
+<p> 思维导图</p>
+<pre class="mermaid"> mindmap
   root((mindmap))
     Origins
       Long history
@@ -113,7 +112,10 @@ Class08 <--> C2: Cool label</pre>
             Argument mapping
     Tools
       Pen and paper
-      Mermaid</pre>]]></content>
+      Mermaid</pre>
+
+<p> 思维导图2<br> <pre class="mermaid"> mindmap<br>    Root<br>        A[A]<br>        :::urgent large<br>        B(B)<br>        C</pre></p>
+]]></content>
   </entry>
   <entry>
     <title>女主角Naomi Watts的眼睛，是电影《金刚》的灵魂</title>
