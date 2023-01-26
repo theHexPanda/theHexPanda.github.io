@@ -105,7 +105,7 @@ J---I(测试完毕)</pre>
        commit
        commit</pre>
 <p> 思维导图</p>
-<pre class="mermaid"> mindmap
+<pre class="mermaid">mindmap
   root((mindmap))
     Origins
       Long history
