@@ -123,8 +123,13 @@ J---I(测试完毕)</pre>
       Pen and paper
       Mermaid</pre>
 
-<p> 思维导图2<br> <pre class="mermaid"> mindmap<br>    Root<br>        A[A]<br>        :::urgent large<br>        B(B)<br>        C</pre></p>
-]]></content>
+<p> 思维导图</p>
+<pre class="mermaid"> mindmap
+    Root
+        A[A]
+        :::urgent large
+        B(B)
+        C</pre>]]></content>
   </entry>
   <entry>
     <title>女主角Naomi Watts的眼睛，是电影《金刚》的灵魂</title>
