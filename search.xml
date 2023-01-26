@@ -104,8 +104,9 @@ J---I(测试完毕)</pre>
        checkout main
        commit
        commit</pre>
-<p> 思维导图 format</p>
-<pre class="mermaid">mindmap
+<p> 思维导图 format-</p>
+<pre class="mermaid">
+mindmap
   root((mindmap))
     Origins
       Long history
@@ -124,7 +125,8 @@ J---I(测试完毕)</pre>
       Mermaid</pre>
 
 <p> 思维导图 format2</p>
-<pre class="mermaid">mindmap
+<pre class="mermaid">
+mindmap
     Root
         A[A]
         :::urgent large
