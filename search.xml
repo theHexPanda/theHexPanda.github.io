@@ -67,8 +67,18 @@ J---I(测试完毕)</pre>
  "rabbit" : 700
  "pig":365
  "tiger" : 15</pre>
-<p> 类图
- </p>
+<p> 类图<br> <pre class="mermaid"> classDiagram<br>Class01 <|-- AveryLongClass : Cool<br>Class03 <em>-- Class04<br>Class05 o-- Class06<br>Class07 .. Class08<br>Class09 --> C2 : Where am i?<br>Class09 --</em> C3<br>Class09 --|> Class07<br>Class07 : equals()<br>Class07 : Object[] elementData<br>Class01 : size()<br>Class01 : int chimp<br>Class01 : int gorilla<br>Class08 <--> C2: Cool label</pre></p>
+<p>Git图</p>
+<pre class="mermaid">    gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit</pre>
 ]]></content>
   </entry>
   <entry>
