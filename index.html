@@ -113,7 +113,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/01/11/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%89%E7%A7%8D%E5%93%81%E5%BE%B7/" data-id="clddn6v6s0004q6yr0n1300xm" class="article-share-link">
+      <a data-url="http://example.com/2023/01/11/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E4%B8%89%E7%A7%8D%E5%93%81%E5%BE%B7/" data-id="clddn7jwk0004rbyr4sbp5cbu" class="article-share-link">
         Share
       </a>
       
@@ -227,20 +227,29 @@ J---I(测试完毕)</pre>
  "pig":365
  "tiger" : 15</pre>
 <p> 类图</p>
-<pre class="mermaid"> classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label</pre>
+<pre class="mermaid">classDiagram
+    note "From Duck till Zebra"
+    Animal <|-- Duck
+    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Fish
+    Animal <|-- Zebra
+    Animal : +int age
+    Animal : +String gender
+    Animal: +isMammal()
+    Animal: +mate()
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+    class Fish{
+        -int sizeInFeet
+        -canEat()
+    }
+    class Zebra{
+        +bool is_wild
+        +run()
+    }</pre>
 
 <p>Git图</p>
 <pre class="mermaid">    gitGraph
@@ -277,7 +286,7 @@ Class08 <--> C2: Cool label</pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddn6v6a0002q6yr7bkg53ke" class="article-share-link">
+      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddn7jw30002rbyrdgvf5o6r" class="article-share-link">
         Share
       </a>
       
@@ -338,7 +347,7 @@ Class08 <--> C2: Cool label</pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/27/%E5%A5%B3%E4%B8%BB%E8%A7%92Naomi-Watts%E7%9A%84%E7%9C%BC%E7%9D%9B%EF%BC%8C%E6%98%AF%E7%94%B5%E5%BD%B1%E3%80%8A%E9%87%91%E5%88%9A%E3%80%8B%E7%9A%84%E7%81%B5%E9%AD%82/" data-id="clddn6v6k0003q6yr79xhf4n5" class="article-share-link">
+      <a data-url="http://example.com/2022/12/27/%E5%A5%B3%E4%B8%BB%E8%A7%92Naomi-Watts%E7%9A%84%E7%9C%BC%E7%9D%9B%EF%BC%8C%E6%98%AF%E7%94%B5%E5%BD%B1%E3%80%8A%E9%87%91%E5%88%9A%E3%80%8B%E7%9A%84%E7%81%B5%E9%AD%82/" data-id="clddn7jwd0003rbyr2oyqhclc" class="article-share-link">
         Share
       </a>
       
