@@ -95,7 +95,7 @@ Class08 <--> C2: Cool label</pre>
        checkout main
        commit
        commit</pre>
-<p> 思维导图</p>
+<p> 思维导图mindmap</p>
 <pre class="mermaid"> 
  mindmap
   root((mindmap))
