@@ -44,9 +44,9 @@
     <link href="http://example.com/2022/12/27/Untitled/"/>
     <id>http://example.com/2022/12/27/Untitled/</id>
     <published>2022-12-27T08:34:09.000Z</published>
-    <updated>2023-01-26T21:33:58.625Z</updated>
+    <updated>2023-01-26T21:35:47.480Z</updated>
     
-    <content type="html"><![CDATA[<p>this is a test abc</p><pre class="mermaid">graph TD;    A-->B;    A-->C;    B-->D;    C-->D;</pre><pre class="mermaid">gantt    title 甘特图    dateFormat  YYYY-MM-DD    section 部分1    1个任务           :a1, 2014-01-01, 30d    其他任务          :after a1  , 20d    section 其他部分    第2个任务      :2014-01-12  , 12d    其他任务      : 24d</pre>]]></content>
+    <content type="html"><![CDATA[<p>this is a test abc</p><pre class="mermaid">graph TD;    A-->B;    A-->C;    B-->D;    C-->D;</pre><p>甘特图测试</p><pre class="mermaid">gantt    title 甘特图    dateFormat  YYYY-MM-DD    section 部分1    1个任务           :a1, 2014-01-01, 30d    其他任务          :after a1  , 20d    section 其他部分    第2个任务      :2014-01-12  , 12d    其他任务      : 24d</pre>]]></content>
     
     
       
@@ -57,9 +57,8 @@
     A--&gt;C;
     B--&gt;D;
     C--&gt;D;&lt;/pre&gt;
-
-&lt;pre class=&quot;mermaid&quot;&gt;gantt
-    t</summary>
+&lt;p&gt;甘特图测试&lt;/p&gt;
+&lt;pre class=&quot;mermaid&quot;</summary>
       
     
     

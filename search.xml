@@ -9,7 +9,7 @@
     A-->C;
     B-->D;
     C-->D;</pre>
-
+<p>甘特图测试</p>
 <pre class="mermaid">gantt
     title 甘特图
     dateFormat  YYYY-MM-DD
