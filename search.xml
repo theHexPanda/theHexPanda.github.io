@@ -60,6 +60,13 @@ J---I(测试完毕)</pre>
     end</pre>
 
 <p>饼图</p>
+<pre class="mermaid">pie
+ title Pie Chart
+ "Dogs" : 386
+ "cats" : 567
+ "rabbit" : 700
+ "pig":365
+ "tiger" : 15</pre>
 ]]></content>
   </entry>
   <entry>
