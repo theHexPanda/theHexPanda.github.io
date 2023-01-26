@@ -123,8 +123,8 @@ J---I(测试完毕)</pre>
       Pen and paper
       Mermaid</pre>
 
-<p> 思维导图</p>
-<pre class="mermaid"> mindmap
+<p> 思维导图 format2</p>
+<pre class="mermaid">mindmap
     Root
         A[A]
         :::urgent large
