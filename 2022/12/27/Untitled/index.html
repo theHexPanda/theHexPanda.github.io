@@ -70,11 +70,29 @@
       
       
         <p>this is a test abc</p>
+<p>流程图</p>
 <pre class="mermaid">graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;</pre>
+<p>流程图 2</p>
+<pre class="mermaid">graph TB;
+subgraph 分情况
+A(开始)-->B{判断}
+end
+B--第一种情况-->C[第一种方案]
+B--第二种情况-->D[第二种方案]
+B--第三种情况-->F{第三种方案}
+subgraph 分种类
+F-.第1个.->J((测试圆形))
+F-.第2个.->H>右向旗帜形]
+end
+H---I(测试完毕)
+C--票数100---I(测试完毕)
+D---I(测试完毕)
+J---I(测试完毕)</pre>
+
 <p>甘特图测试</p>
 <pre class="mermaid">gantt
     title 甘特图
@@ -106,11 +124,10 @@
             l-->z: 祝您新年好啊
         end
     end</pre>
-
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddmf2c0000293yr4flr577c" class="article-share-link">
+      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddmgzhf0002a8yr86phcygn" class="article-share-link">
         Share
       </a>
       
