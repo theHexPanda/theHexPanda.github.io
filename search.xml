@@ -79,6 +79,25 @@ J---I(测试完毕)</pre>
        checkout main
        commit
        commit</pre>
+<p> 思维导图</p>
+ <pre class="mermaid"> 
+ mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid</pre>
 ]]></content>
   </entry>
   <entry>
