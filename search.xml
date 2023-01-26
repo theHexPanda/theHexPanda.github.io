@@ -3,7 +3,8 @@
   <entry>
     <title>mermaid test</title>
     <url>/2022/12/27/Untitled/</url>
-    <content><![CDATA[<p>this is a test abc</p>
+    <content><![CDATA[<p><a href="https://mermaid.js.org/intro/">Mermaid</a></p>
+<p>this is a test abc</p>
 <p>流程图</p>
 <pre class="mermaid">graph TD;
     A-->B;
@@ -97,8 +98,7 @@ J---I(测试完毕)</pre>
             Argument mapping
     Tools
       Pen and paper
-      Mermaid</pre>
-]]></content>
+      Mermaid</pre>]]></content>
   </entry>
   <entry>
     <title>女主角Naomi Watts的眼睛，是电影《金刚》的灵魂</title>
