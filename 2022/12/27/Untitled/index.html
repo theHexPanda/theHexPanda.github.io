@@ -87,10 +87,30 @@
     section 其他部分
     第2个任务      :2014-01-12  , 12d
     其他任务      : 24d</pre>
+
+<p>时序图</p>
+<pre class="mermaid">sequenceDiagram
+    participant z as 张三
+    participant l as 李四
+    loop 日复一日
+        z->>l: 吃了吗您呐？
+        l-->>z: 吃了，您呢？
+        activate z
+        Note left of z: 想了一下
+        alt 还没吃
+            z-xl: 还没呢，正准备回去吃
+        else 已经吃了
+            z-xl: 我也吃过了，哈哈
+        end
+        opt 大过年的
+            l-->z: 祝您新年好啊
+        end
+    end</pre>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddm9ulk00026tyrdhp2gey4" class="article-share-link">
+      <a data-url="http://example.com/2022/12/27/Untitled/" data-id="clddmd5z400027yyr6no90iv4" class="article-share-link">
         Share
       </a>
       
